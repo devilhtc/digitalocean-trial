@@ -1,0 +1,27 @@
+{
+  "name": "do-trial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webserver.js",
+  "scripts": {
+    "test": "echo Test your code by opening http://localhost:80 in your browser.",
+    "jshint": "jshint --config .jshintrc --exclude=node_modules,test . || exit 0",
+    "start": "node webserver.js"
+  },
+  "author": "Mendel Rosenblum <mendel@cs.stanford.edu> (http://www.stanford.edu/~mendel)",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.13.3",
+    "express-session": "^1.15.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devilhtc/digitalocean-trial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devilhtc/digitalocean-trial/issues"
+  },
+  "homepage": "https://github.com/devilhtc/digitalocean-trial#readme"
+}
